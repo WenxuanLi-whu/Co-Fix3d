@@ -28,16 +28,3 @@ nuScenes val dataset
 
 ToDo Multi-Frame Fusion: Co-Stream is coming soon
 
-License
-Fast-Poly is released under the MIT license.
-
-Citation
-If you find this project useful in your research, please consider citing by 😸:
-
-@article{li2025co,
-  title={Co-Fix3D: Enhancing 3D Object Detection with Collaborative Refinement},
-  author={Li, Wenxuan and Zou, Qin and Chen, Chi and Du, Bo and Chen, Long and Zhou, Jian and Yu, Hongkai},
-  journal={IEEE Robotics and Automation Letters},
-  year={2025},
-  publisher={IEEE}
-}
