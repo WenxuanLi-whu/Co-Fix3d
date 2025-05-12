@@ -27,4 +27,12 @@ nuScenes val dataset
 | Co-Stream  | L+C+T  |-  |-  ||
 
 ToDo Multi-Frame Fusion: Co-Stream is coming soon
-
+```
+@article{li2025co,
+  title={Co-Fix3D: Enhancing 3D Object Detection with Collaborative Refinement},
+  author={Li, Wenxuan and Zou, Qin and Chen, Chi and Du, Bo and Chen, Long and Zhou, Jian and Yu, Hongkai},
+  journal={IEEE Robotics and Automation Letters},
+  year={2025},
+  publisher={IEEE}
+}
+```
