@@ -23,9 +23,18 @@ The training preprocessing generates the ops dependency file：
 Point Cloud Modality Training Methods
 ```
 #The first step：
- python train.py ./config/Co-Fix3D_L_s2.py
-#The second step：
  python train.py ./config/Co-Fix3D_L_s1.py
+#The second step：
+ python train.py ./config/Co-Fix3D_L_s2.py
 ```
 
+Training Methods for Modal Fusion
+```
+#The first step：
+ python train.py ./config/Co-Fix3D_L_s1.py
+#The second step：
+ python train.py ./config/Co-Fix3D_LC_r50_s2.py
+#The third step：
+ python train.py ./config/Co-Fix3D_LC_r50_s3.py
+```
 
