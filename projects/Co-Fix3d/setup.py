@@ -48,7 +48,7 @@ if __name__ == '__main__':
         ext_modules=[
             make_cuda_ext(
                 name='bev_pool_ext',
-                module='projects.diffusionBEV2.diffusionbev.ops.bev_pool',
+                module='projects.Co-Fix3D-main.co-fix3d.ops.bev_pool',
                 sources=[
                     'src/bev_pool.cpp',
                     'src/bev_pool_cuda.cu',
@@ -56,7 +56,7 @@ if __name__ == '__main__':
             ),
             make_cuda_ext(
                 name='voxel_layer',
-                module='projects.diffusionBEV2.diffusionbev.ops.voxel',
+                module='projects.Co-Fix3D-main.co-fix3d.ops.voxel',
                 sources=[
                     'src/voxelization.cpp',
                     'src/scatter_points_cpu.cpp',
@@ -67,7 +67,7 @@ if __name__ == '__main__':
             ),
             make_cuda_ext(
                 name='roiaware_pool3d_ext',
-                module='projects.diffusionBEV2.diffusionbev.ops.roiaware_pool3d',
+                module='projects.Co-Fix3D-main.co-fix3d.ops.roiaware_pool3d',
                 sources=[
                     'src/points_in_boxes_cpu.cpp',
                     'src/points_in_boxes_cuda.cu',
@@ -77,7 +77,7 @@ if __name__ == '__main__':
             ),
             make_cuda_ext(
                 name='locatt_ops',
-                module='projects.diffusionBEV2.diffusionbev.ops.locatt_ops',
+                module='projects.Co-Fix3D-main.co-fix3d.ops.locatt_ops',
                 sources=[
                     'src/similar.cu',
                     'src/weighting.cu',
@@ -86,7 +86,7 @@ if __name__ == '__main__':
             ),
             make_cuda_ext(
                 name='msmv_sampling_cuda',
-                module='projects.diffusionBEV2.diffusionbev.ops.msmv_sampling',
+                module='projects.Co-Fix3D-main.co-fix3d.ops.msmv_sampling',
                 sources=[
                     'src/msmv_sampling.cpp',
                     'src/msmv_sampling_forward.cu',

@@ -15,3 +15,4 @@ https://arxiv.org/pdf/2408.07999
 
 We implement Co-Fix3D and support training and testing on NuScenes dataset.
 
+ python projects/Co-Fix3D-main/setup.py develop
