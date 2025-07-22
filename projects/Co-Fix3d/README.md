@@ -1,6 +1,6 @@
 # Co-Fix3D: Enhancing 3D Object Detection With Collaborative Refinement
 
-[https://arxiv.org/pdf/2408.07999](https://ieeexplore.ieee.org/abstract/document/10945409)
+[Paper](https://ieeexplore.ieee.org/abstract/document/10945409)
 
 <!-- [ALGORITHM] -->
 
