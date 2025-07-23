@@ -33,6 +33,15 @@ Citation
 If you find this project useful in your research, please consider citing by 😸:
 
 ```
+@article{li2025bevfix,
+  title={BEVFix: Deep feature enhancement for robust 3D object detection},
+  author={Li, Wenxuan and Zhou, Jian and Chen, Chi and Yu, Hongkai and Du, Bo and Zou, Qin},
+  journal={Neural Networks},
+  pages={107675},
+  year={2025},
+  publisher={Elsevier}
+}
+
 @article{li2025co,
   title={Co-Fix3D: Enhancing 3D Object Detection with Collaborative Refinement},
   author={Li, Wenxuan and Zou, Qin and Chen, Chi and Du, Bo and Chen, Long and Zhou, Jian and Yu, Hongkai},
